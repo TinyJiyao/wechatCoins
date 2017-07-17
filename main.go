@@ -13,7 +13,7 @@ import (
 )
 
 const (
-	token = "PaoPaoWeChat" 
+	token = "PaoPaoWeChat"
 )
 
 func makeSignature(timestamp, nonce string) string {
